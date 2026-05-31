@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Detect OS and set classpath separator
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OS" == "Windows_NT" ]]; then
+SEP=";"
+else
+SEP=":"
+fi
+
+# Compile the application
+javac -encoding UTF-8 --source-path src -d dist src/*.java
+
+# Compile the tests
+javac -encoding UTF-8 --source-path test -d dist -cp "dist${SEP}lib/junit-platform-console-standalone-1.7.1.jar" test/*.java
