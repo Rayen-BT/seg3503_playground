@@ -14,5 +14,11 @@ public class FizzBuzzTest {
         fb = new FizzBuzz();
     }
 
-    // Tests will be added one at a time using TDD
+    @Test
+    public void testFizzbuzzReturnsNumber() {
+        assertEquals("1", fb.fizzbuzz(1));
+        assertEquals("2", fb.fizzbuzz(2));
+        assertEquals("4", fb.fizzbuzz(4));
+        assertEquals("7", fb.fizzbuzz(7));
+    }
 }
