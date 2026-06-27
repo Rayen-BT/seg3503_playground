@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fizzbuzz.FizzBuzzTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! -- in fizzbuzz.FizzBuzzTest
-fizzbuzz.FizzBuzzTest.testFizzbuzzRange -- Time elapsed: 0.003 s <<< ERROR!
-java.lang.Error: 
-Unresolved compilation problems: 
-	The method fizzbuzzRange(int, int) is undefined for the type FizzBuzz
-	The method fizzbuzzRange(int, int) is undefined for the type FizzBuzz
-
-	at fizzbuzz.FizzBuzzTest.testFizzbuzzRange(FizzBuzzTest.java:51)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in fizzbuzz.FizzBuzzTest
