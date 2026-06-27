@@ -1,5 +1,8 @@
 package fizzbuzz;
 
 public class FizzBuzz {
-    // Implementation will be added step by step using TDD
+
+    public String fizzbuzz(int n) {
+        return String.valueOf(n);
+    }
 }
