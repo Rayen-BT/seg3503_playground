@@ -45,4 +45,10 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", fb.fizzbuzz(45));
         assertEquals("FizzBuzz", fb.fizzbuzz(90));
     }
+
+    @Test
+    public void testFizzbuzzRange() {
+        assertEquals(List.of("1", "2", "Fizz", "4", "Buzz"), fb.fizzbuzzRange(1, 5));
+        assertEquals(List.of("14", "FizzBuzz", "16"), fb.fizzbuzzRange(14, 16));
+    }
 }
