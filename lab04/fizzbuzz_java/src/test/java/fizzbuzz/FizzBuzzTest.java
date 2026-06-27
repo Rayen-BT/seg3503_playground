@@ -21,4 +21,12 @@ public class FizzBuzzTest {
         assertEquals("4", fb.fizzbuzz(4));
         assertEquals("7", fb.fizzbuzz(7));
     }
+
+    @Test
+    public void testFizzbuzzReturnsFizz() {
+        assertEquals("Fizz", fb.fizzbuzz(3));
+        assertEquals("Fizz", fb.fizzbuzz(6));
+        assertEquals("Fizz", fb.fizzbuzz(9));
+        assertEquals("Fizz", fb.fizzbuzz(99));
+    }
 }
